@@ -13,14 +13,29 @@ body {
     grid-template-rows: repeat(2, auto);
     align-items: center;
     height: 100vh;
+    font-size: 16px;
 }
 
 .card {
     width: 30%;
-    height: 300px;
     margin: 0 auto;
     background: white;
     border-radius: 1em;
     padding: 0 2em;
 
+}
+
+.card1 h1{
+    font-size: 2em;
+}
+.card1 p{
+    font-size: 1em;
+}
+
+.card2 h1{
+    font-size: 2rem;
+}
+
+.card2 p{
+    font-size: 1rem;
 }
